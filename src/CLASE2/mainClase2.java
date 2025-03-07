@@ -34,7 +34,7 @@ public class mainClase2 {
             int resultado2 = 10 + 5 * 2/3;
 
         System.out.println("El resultado de la expresion es: " + resultado);
-        System.out.println("El resultado de la expresion es: " + resultado2);
+        System.out.println("El resultado de la expresion2 es: " + resultado2);
 
     }
 }
