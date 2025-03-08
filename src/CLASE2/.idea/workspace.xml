@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b7c7093-6fcd-40cc-800b-1c091ef14329" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/mainClase2.java" beforeDir="false" afterPath="$PROJECT_DIR$/mainClase2.java" afterDir="false" />
-    </list>
+    <list default="true" id="9b7c7093-6fcd-40cc-800b-1c091ef14329" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,21 +10,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SergioBv79"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SergioBv79&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SergioBv79/PROGRAMACION.git",
-    "accountId": "45c55701-c788-42a0-b2b6-ce7b71ea0825"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SergioBv79/PROGRAMACION.git&quot;,
+    &quot;accountId&quot;: &quot;45c55701-c788-42a0-b2b6-ce7b71ea0825&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2u1nYaipYs7GyJPBWsj4uL7hTRz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,9 +33,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/sergi/IdeaProjects/REPOSITORIO JAVA SERGIOBV/programacionclase_5.3.25/src/CLASE2"
+    "last_opened_file_path": "C:/Users/sergi/IdeaProjects/REPOSITORIO JAVA SERGIOBV/PROGRAMACION/src"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

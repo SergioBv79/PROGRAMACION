@@ -26,11 +26,11 @@ public class mainClase2 {
 
 
         // Operadores lógicos. Es aquel que combina operaciones lógicas (&, &&, etc.)
-            boolean a = true;
-            boolean b = false;
-        System.out.println("a AND b: " +(a && b));
-        System.out.println("a OR b: " + (a ||b));
-        System.out.println("NOT a: " +(!a));
+            boolean C = true;
+            boolean D = false;
+        System.out.println("a AND b: " +(C && D));
+        System.out.println("a OR b: " + (C ||D));
+        System.out.println("NOT a: " +(!C));
         // expresiones y/o evaluaciones
             int resultado = (10 + 5) * 2/3;
             int resultado2 = 10 + 5 * 2/3;
@@ -41,5 +41,30 @@ public class mainClase2 {
         System.out.println("El resultado de la expresion es: " + resultado);
         System.out.println("El resultado de la expresion2 es: " + resultado2);
         System.out.println("El resultado de la expresion3 es: " + resultado3);
+
+        //EJERCICIOS CLASE 2. ( 05.03.25)
+        /* 1️⃣ Crea una constante llamada GRAVEDAD con el valor 9.81
+         *y muestra su valor por pantalla.
+         */
+        final double GRAVEDAD= 9.81;
+        System.out.println("El valor de la gravedad es:" + GRAVEDAD);
+
+        /* 2️⃣ Declara dos variables a = 25 y b = 7.
+         * Realiza todas las operaciones aritméticas entre ellas e imprime los resultados.
+         */
+
+        int a = 5;
+        int b = 8;
+        int suma = a + b;
+        int resta = a - b;
+        int multiplicacion = a * b;
+        int division = a / b;
+        System.out.println("La suma de " + a + " y " + b + " es: " + suma);
+
+
+
+
+
+
     }
 }
