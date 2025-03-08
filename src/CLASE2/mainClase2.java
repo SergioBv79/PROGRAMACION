@@ -12,7 +12,9 @@ public class mainClase2 {
 
         int numero1 = 5;
         int numero2 = 8;
-        int suma = numero1 + numero2;
+        int sum = numero1 + numero2;
+        System.out.println("La suma de " + numero1 + " y " + numero2 + " es: " + sum);
+
 
         //operaciones relacionales
         int x = 10;
@@ -32,6 +34,7 @@ public class mainClase2 {
         // expresiones y/o evaluaciones
             int resultado = (10 + 5) * 2/3;
             int resultado2 = 10 + 5 * 2/3;
+
 
         System.out.println("El resultado de la expresion es: " + resultado);
         System.out.println("El resultado de la expresion2 es: " + resultado2);
