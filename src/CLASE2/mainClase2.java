@@ -34,10 +34,12 @@ public class mainClase2 {
         // expresiones y/o evaluaciones
             int resultado = (10 + 5) * 2/3;
             int resultado2 = 10 + 5 * 2/3;
+            int resultado3 = 10 + 5;
+
 
 
         System.out.println("El resultado de la expresion es: " + resultado);
         System.out.println("El resultado de la expresion2 es: " + resultado2);
-
+        System.out.println("El resultado de la expresion3 es: " + resultado3);
     }
 }
