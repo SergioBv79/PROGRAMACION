@@ -80,7 +80,10 @@ public class mainClase2 {
         int age = 20;
         System.out.println("¿Es mayor de edad? " + (age >= 18));
         System.out.println("¿Es menor de edad? " + (age < 18));
+
         //continuar aqui con el ejercicio 4
+
+
 
     }
 }
