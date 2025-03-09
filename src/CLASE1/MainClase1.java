@@ -39,8 +39,6 @@ public class MainClase1 {
         System.out.println("Valor de long: " + longVariable);
 
 
-
-
         // 🔹 Flotantes (números con decimales)
         System.out.println("\n👉 COMA FLOTANTE:");
         float numeroFloat = 3.14f; // Número decimal (requiere 'f' al final)
@@ -53,14 +51,11 @@ public class MainClase1 {
         // Declara una variable de tipo float y otra de tipo double con valores distintos.
         // Imprímelas en la consola.
 
-                float floatVariable = 3.14f;   // Tipo float (se debe poner 'f' al final para especificar que es float)
-                double doubleVariable = 3.14159265359;
+        float floatVariable = 3.14f;   // Tipo float (se debe poner 'f' al final para especificar que es float)
+        double doubleVariable = 3.14159265359;
 
-                System.out.println("Valor de float: " + floatVariable);
-                System.out.println("Valor de double: " + doubleVariable);
-
-
-
+        System.out.println("Valor de float: " + floatVariable);
+        System.out.println("Valor de double: " + doubleVariable);
 
 
         // 🔹 Booleanos (verdadero o falso)
@@ -73,85 +68,94 @@ public class MainClase1 {
         // Declara una variable boolean y asígnale un valor falso.
         // Luego usa un `if` para imprimir un mensaje si es true o false.
 
-        // 🔹 Caracteres (un solo símbolo)
-        System.out.println("\n👉 CARACTERES:");
-        char letra = 'A';
-        char simbolo = '#';
-        char unicode = '\u2764';  // Corazón ❤️
-        System.out.println("char (16 bits, caracteres Unicode): " + letra + " " + simbolo + " " + unicode);
+        boolean es_Verdadero = false;
 
-        // 📌 EJERCICIO 4:
-        // Declara una variable de tipo char con tu inicial y otra con un símbolo especial.
-        // Imprímelas en la consola.
+        // Usar un 'if' para verificar el valor de la variable
+        if (esVerdadero) {
+            System.out.println("La variable es verdadera.");
+        } else {
+            System.out.println("La variable es falsa.");
+        }
 
-        // =====================================================
-        // 📌 TIPOS DE REFERENCIA EN JAVA 📌
-        // Los tipos de referencia no almacenan valores directamente.
-        // En su lugar, almacenan direcciones de memoria que apuntan a objetos.
-        // =====================================================
+            // 🔹 Caracteres (un solo símbolo)
+            System.out.println("\n👉 CARACTERES:");
+            char letra = 'A';
+            char simbolo = '#';
+            char unicode = '\u2764';  // Corazón ❤️
+            System.out.println("char (16 bits, caracteres Unicode): " + letra + " " + simbolo + " " + unicode);
 
-        System.out.println("\n🔹 TIPOS DE REFERENCIA EN JAVA 🔹");
+            // 📌 EJERCICIO 4:
+            // Declara una variable de tipo char con tu inicial y otra con un símbolo especial.
+            // Imprímelas en la consola.
 
-        // 🔹 Cadenas de texto (Strings)
-        System.out.println("\n👉 CADENAS DE TEXTO:");
-        String texto = "Esto es una cadena en Java";
-        System.out.println("String (almacena texto y caracteres): " + texto);
+            // =====================================================
+            // 📌 TIPOS DE REFERENCIA EN JAVA 📌
+            // Los tipos de referencia no almacenan valores directamente.
+            // En su lugar, almacenan direcciones de memoria que apuntan a objetos.
+            // =====================================================
 
-        // 📌 EJERCICIO 5:
-        // Declara una variable String con tu nombre y otra con tu lenguaje favorito.
-        // Concátalas en un mensaje y muestra el resultado.
+            System.out.println("\n🔹 TIPOS DE REFERENCIA EN JAVA 🔹");
 
-        // 🔹 Arrays (listas de valores)
-        System.out.println("\n👉 ARRAYS:");
-        int[] numeros = {10, 20, 30, 40, 50}; // Array de enteros
-        System.out.println("Array de enteros (posición 0): " + numeros[0]);
-        System.out.println("Array de enteros (posición 1): " + numeros[1]);
+            // 🔹 Cadenas de texto (Strings)
+            System.out.println("\n👉 CADENAS DE TEXTO:");
+            String texto = "Esto es una cadena en Java";
+            System.out.println("String (almacena texto y caracteres): " + texto);
 
-        // 📌 EJERCICIO 6:
-        // Declara un array de 5 nombres y muéstralos en la consola usando un bucle.
+            // 📌 EJERCICIO 5:
+            // Declara una variable String con tu nombre y otra con tu lenguaje favorito.
+            // Concátalas en un mensaje y muestra el resultado.
 
-        // =====================================================
-        // 📌 LITERALES EN JAVA 📌
-        // Un literal es un valor constante que se usa directamente en el código.
-        // Ejemplos: números, texto, valores booleanos.
-        // =====================================================
+            // 🔹 Arrays (listas de valores)
+            System.out.println("\n👉 ARRAYS:");
+            int[] numeros = {10, 20, 30, 40, 50}; // Array de enteros
+            System.out.println("Array de enteros (posición 0): " + numeros[0]);
+            System.out.println("Array de enteros (posición 1): " + numeros[1]);
 
-        System.out.println("\n🔹 LITERALES EN JAVA 🔹");
+            // 📌 EJERCICIO 6:
+            // Declara un array de 5 nombres y muéstralos en la consola usando un bucle.
 
-        System.out.println("\n👉 LITERALES ENTEROS:");
-        System.out.println(100);  // Literal entero
-        System.out.println(-50);  // Literal negativo
+            // =====================================================
+            // 📌 LITERALES EN JAVA 📌
+            // Un literal es un valor constante que se usa directamente en el código.
+            // Ejemplos: números, texto, valores booleanos.
+            // =====================================================
 
-        System.out.println("\n👉 LITERALES FLOTANTES:");
-        System.out.println(3.1415);  // Literal flotante
-        System.out.println(2.5e3);  // Notación científica (2.5 × 10³)
+            System.out.println("\n🔹 LITERALES EN JAVA 🔹");
 
-        System.out.println("\n👉 LITERALES BOOLEANOS:");
-        System.out.println(true);  // Literal booleano
-        System.out.println(false); // Literal booleano
+            System.out.println("\n👉 LITERALES ENTEROS:");
+            System.out.println(100);  // Literal entero
+            System.out.println(-50);  // Literal negativo
 
-        System.out.println("\n👉 LITERALES DE TEXTO:");
-        System.out.println("Hola, mundo");  // Literal de cadena
+            System.out.println("\n👉 LITERALES FLOTANTES:");
+            System.out.println(3.1415);  // Literal flotante
+            System.out.println(2.5e3);  // Notación científica (2.5 × 10³)
 
-        // 📌 EJERCICIO 7:
-        // Usa literales para imprimir en consola:
-        // Un número entero, un decimal, un booleano y una cadena de texto.
+            System.out.println("\n👉 LITERALES BOOLEANOS:");
+            System.out.println(true);  // Literal booleano
+            System.out.println(false); // Literal booleano
 
-        // =====================================================
-        // 📌 CONCLUSIÓN 📌
-        // En esta práctica aprendimos:
-        // - Tipos primitivos: int, double, boolean, char.
-        // - Tipos de referencia: String, Arrays.
-        // - Literales: valores constantes en el código.
-        // =====================================================
+            System.out.println("\n👉 LITERALES DE TEXTO:");
+            System.out.println("Hola, mundo");  // Literal de cadena
 
-        System.out.println("\n✅ HEMOS APRENDIDO SOBRE LOS TIPOS DE DATOS EN JAVA ✅");
-        System.out.println("- Tipos primitivos: enteros, flotantes, booleanos, caracteres.");
-        System.out.println("- Tipos de referencia: String, Arrays.");
-        System.out.println("- Literales: valores constantes en el código.");
-        System.out.println("- Además, realizamos ejercicios para reforzar lo aprendido.");
+            // 📌 EJERCICIO 7:
+            // Usa literales para imprimir en consola:
+            // Un número entero, un decimal, un booleano y una cadena de texto.
 
-        // 🚀 FIN DEL SCRIPT 🚀
+            // =====================================================
+            // 📌 CONCLUSIÓN 📌
+            // En esta práctica aprendimos:
+            // - Tipos primitivos: int, double, boolean, char.
+            // - Tipos de referencia: String, Arrays.
+            // - Literales: valores constantes en el código.
+            // =====================================================
 
+            System.out.println("\n✅ HEMOS APRENDIDO SOBRE LOS TIPOS DE DATOS EN JAVA ✅");
+            System.out.println("- Tipos primitivos: enteros, flotantes, booleanos, caracteres.");
+            System.out.println("- Tipos de referencia: String, Arrays.");
+            System.out.println("- Literales: valores constantes en el código.");
+            System.out.println("- Además, realizamos ejercicios para reforzar lo aprendido.");
+
+            // 🚀 FIN DEL SCRIPT 🚀
+
+        }
     }
-}
