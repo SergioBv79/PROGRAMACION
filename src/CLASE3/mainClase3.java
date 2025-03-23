@@ -65,7 +65,7 @@ public class mainClase3 {
     //convertir del long al int
         int numeroEnterito = (int)numeroLargo;
         System.out.println("Numero con cambio de long a int: " + numeroEnterito);
-    //ultima prueba commit. este comentario del final del codigo es el unico cambio
+    //ultima prueba commit. este comentario del final del codigo es el unico cambio.
 
 
     }
