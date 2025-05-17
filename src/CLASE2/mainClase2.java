@@ -25,7 +25,7 @@ public class mainClase2 {
         System.out.println("Es x menor que y?:" + (x < y));
 
 
-        // Operadores lógicos. Es aquel que combina operaciones lógicas (&, &&, etc.)
+        // Operadores lógicos. Es aquel que combina operaciones lógicas (&, &&, ||, etc.)
         boolean C = true;
         boolean D = false;
         System.out.println("a AND b: " + (C && D));
@@ -81,8 +81,21 @@ public class mainClase2 {
         System.out.println("¿Es mayor de edad? " + (age >= 18));
         System.out.println("¿Es menor de edad? " + (age < 18));
 
-        //continuar aqui con el ejercicio 4
+       /* 4️⃣ Crea un programa que reciba dos números
+       * y determine cuál es mayor, menor o si son iguales.
+        */
 
+        int num1 = 20;
+        int num2 = 20;
+
+        // Comparar los números utilizando operadores relacionales
+        if (num1 > num2) {
+            System.out.println("El primer número es mayor.");
+        } else if (num1 < num2) {
+            System.out.println("El segundo número es mayor.");
+        } else if (num1 == num2) {
+            System.out.println("Ambos números son iguales.");
+        }
 
 
     }

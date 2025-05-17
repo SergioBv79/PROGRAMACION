@@ -88,6 +88,11 @@ public class MainClase1 {
             // Declara una variable de tipo char con tu inicial y otra con un símbolo especial.
             // Imprímelas en la consola.
 
+
+
+
+
+
             // =====================================================
             // 📌 TIPOS DE REFERENCIA EN JAVA 📌
             // Los tipos de referencia no almacenan valores directamente.
@@ -154,7 +159,7 @@ public class MainClase1 {
             System.out.println("- Tipos de referencia: String, Arrays.");
             System.out.println("- Literales: valores constantes en el código.");
             System.out.println("- Además, realizamos ejercicios para reforzar lo aprendido.");
-
+//
             // 🚀 FIN DEL SCRIPT 🚀
 
         }
